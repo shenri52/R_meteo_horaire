@@ -11,7 +11,7 @@
 
 * Racine : emplacement du projet R --> "METEO_HORAIRE.Rproj"
 * Un dossier "data" pour stocker les données téléchargées par le script
-* Un dossier doc contenant le descriptif des champs
+* Un dossier "doc" contenant le descriptif des champs
 * Un dossier "result" pour le stockage du résultat
 * Un dosssier script qui contient :
   * prog_meteo.R --> script principal
@@ -21,7 +21,7 @@
 
 ## Fonctionnement
 
-1. Modifier la valeur affecté à la variable "sel_dep" avec le numéro du département souhaité
+1. Modifier la valeur affectée à la variable "sel_dep" avec le numéro du département souhaité
 2. Lancer le script intitulé "prog_meteo" qui se trouve dans le dossier "script"
 
 ## Résultat
