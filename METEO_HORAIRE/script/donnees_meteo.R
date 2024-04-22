@@ -20,11 +20,8 @@ files_available <- GET(paste("https://www.data.gouv.fr/api/2/datasets/6569b4473b
                    filter(dep == sel_dep,
                           annee_fin == as.character(year(Sys.Date())))
 
-# Comptage du nombre de fichier
-nb_fichier <- count(files_available)
-
 # Téléchargement des fichiers
-for (i in 1:nb_fichier$n)
+for (i in 1:nrow(files_available))
     {
       
       # Initialisation d'une variable avec l'URL de téléchargement
