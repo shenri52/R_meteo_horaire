@@ -20,13 +20,9 @@
 # température                                                           #
 #     - un tableau nommé 'precipitation_horaire' avec les relevés des   #
 # précipitations                                                        #
-#     - un tableau nommé 'station_meteo' la liste des stations actives  #
-# et inactives présentent sur le département                            #
+#     - un tableau nommé 'station_meteo' la liste et les coordonnées    # 
+# des stations                                                          #
 #########################################################################
-
-#################### Initialisation variable  : choix du département
-
-sel_dep <- "52"
 
 #################### chargement des librairies
 
@@ -35,6 +31,10 @@ source("script/librairie.R")
 #################### Suppression des fichiers gitkeep
 
 source("script/suppression_gitkeep.R")
+
+#################### Téléchargement et mise en forme des données météos
+
+source("script/chargement_donnees_meteo.R")
 
 #################### Téléchargement et mise en forme des données météos
 
