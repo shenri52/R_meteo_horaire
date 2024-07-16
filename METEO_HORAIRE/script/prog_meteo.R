@@ -24,13 +24,17 @@
 # des stations                                                          #
 #########################################################################
 
-#################### chargement des librairies
-
-source("script/librairie.R")
-
 #################### Suppression des fichiers gitkeep
 
 source("script/suppression_gitkeep.R")
+
+#################### Nettoyage des dossiers
+
+source("script/nettoyage_dossier.R")
+
+#################### chargement des librairies
+
+source("script/librairie.R")
 
 #################### Téléchargement et mise en forme des données météos
 
